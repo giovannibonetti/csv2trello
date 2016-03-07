@@ -1,20 +1,13 @@
-# ElixirTest
+# CSV2Trello
 
-**TODO: Add description**
+This is a learning exercise with the Elixir Language.
 
-## Installation
+## Installation and running
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+```bash
+mix local.hex
 
-  1. Add csv2trello to your list of dependencies in `mix.exs`:
+mix deps.get
 
-        def deps do
-          [{:csv2trello, "~> 0.0.1"}]
-        end
-
-  2. Ensure csv2trello is started before your application:
-
-        def application do
-          [applications: [:csv2trello]]
-        end
-
+mix run csv2trello.exs
+```
